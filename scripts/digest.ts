@@ -805,7 +805,7 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
   const dateStr = now.toISOString().split('T')[0];
   
   let report = `# 📰 AI 博客每日精选 — ${dateStr}\n\n`;
-  report += `> 来自 Karpathy 推荐的 ${stats.totalFeeds} 个顶级技术博客，AI 精选 Top ${articles.length}\n\n`;
+  report += `> 来自个人维护清单中的 ${stats.totalFeeds} 个订阅源，AI 精选 Top ${articles.length}\n\n`;
 
   // ── Today's Highlights ──
   if (highlights) {
@@ -896,8 +896,7 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
 
   // ── Footer ──
   report += `*生成于 ${dateStr} ${now.toISOString().split('T')[1]?.slice(0, 5) || ''} | 扫描 ${stats.successFeeds} 源 → 获取 ${stats.totalArticles} 篇 → 精选 ${articles.length} 篇*\n`;
-  report += `*基于 [Hacker News Popularity Contest 2025](https://refactoringenglish.com/tools/hn-popularity/) RSS 源列表，由 [Andrej Karpathy](https://x.com/karpathy) 推荐*\n`;
-  report += `*由「懂点儿AI」制作，欢迎关注同名微信公众号获取更多 AI 实用技巧 💡*\n`;
+  report += `*来源目录：[技术阅读雷达 sources.json](https://github.com/CherryYang05/ai-daily-digest/blob/main/sources.json)*\n`;
 
   return report;
 }
@@ -907,7 +906,7 @@ function generateDigestReport(articles: ScoredArticle[], highlights: string, sta
 // ============================================================================
 
 function printUsage(): never {
-  console.log(`AI Daily Digest - AI-powered RSS digest from 90 top tech blogs
+  console.log(`技术阅读雷达 · AI Daily Digest - RSS digest from your maintained source catalog
 
 Usage:
   bun scripts/digest.ts [options]
