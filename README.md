@@ -1,8 +1,23 @@
 # AI Daily Digest
 
-skill 制作详情可查看 ➡️ https://mp.weixin.qq.com/s/rkQ28KTZs5QeZqjwSCvR4Q
+本仓库是 [vigorX777/ai-daily-digest](https://github.com/vigorX777/ai-daily-digest) 的个人维护 fork，保留上游提交历史、采集与报告生成流程。
 
-从 [Andrej Karpathy](https://x.com/karpathy) 推荐的 90 个 Hacker News 顶级技术博客中抓取最新文章，通过 AI 多维评分筛选，生成一份结构化的每日精选日报。默认使用 Gemini，并支持自动降级到 OpenAI 兼容 API。
+## 个人订阅源维护
+
+`sources.json` 是此 fork 的订阅目录，2026-10-31 与 Notion「技术阅读雷达 → 订阅源」逐项核对：101 条启用且可读取来源，其中 86 条 RSS/Atom、15 条网页来源。已排除 20 条停用/异常来源及此前删除的 rachelbythebay.com；新增补充来源与修正后的 URL 均纳入目录。
+
+每条来源保留稳定 `id`、`name`、`htmlUrl`、`xmlUrl`、`enabled`、`health`、`fetchMethod`、`type` 和 `topics`。修改来源只需编辑该文件；不要恢复脚本内的上游固定清单。同步 Notion 时按来源 ID 对齐，保留阅读状态与个人笔记。
+
+```bash
+bun scripts/digest.ts --check-sources
+bun scripts/digest.ts --hours 168 --top-n 5 --lang zh --output ./digest.md
+```
+
+校验命令无需 API Key，不发起采集请求，检查字段、URL 和重复来源。脚本根据抓取方式仅采集启用且健康的 RSS/Atom 或 RSSHub 来源；15 条网页来源保留在目录中并明确报告为未覆盖，需要定时任务逐页读取或另建适配器，不能计作 RSS 抓取成功。“可读取”是 Notion 的检查状态，并非本次已完成所有源的端到端解析验证。
+
+ChatGPT 定时任务与此仓库独立：创建 fork 不会自动修改原任务。任务应读取本 fork 的 `sources.json`，每期最多新增 20 篇、精选最多 5 篇；Notion 同步仍由原任务负责，本脚本不实现 Notion 写入。
+
+从独立维护的 `sources.json` 中读取订阅源并抓取 RSS/Atom 最新文章，通过 AI 多维评分筛选，生成一份结构化的每日精选日报。默认使用 Gemini，并支持自动降级到 OpenAI 兼容 API。
 
 ![AI Daily Digest 概览](assets/overview.png)
 
@@ -45,7 +60,7 @@ npx -y bun scripts/digest.ts --hours 48 --top-n 15 --lang zh --output ./digest.m
 RSS 抓取 → 时间过滤 → AI 评分+分类 → AI 摘要+翻译 → 趋势总结
 ```
 
-1. **RSS 抓取** — 并发抓取 90 个源（10 路并发，15s 超时），兼容 RSS 2.0 和 Atom 格式
+1. **RSS 抓取** — 并发抓取清单中的 RSS/Atom 源（10 路并发，15s 超时），兼容 RSS 2.0 和 Atom 格式
 2. **时间过滤** — 按指定时间窗口筛选近期文章
 3. **AI 评分** — AI 从相关性、质量、时效性三个维度打分（1-10），同时完成分类和关键词提取（Gemini 优先，失败自动降级到 OpenAI 兼容接口）
 4. **AI 摘要** — 为 Top N 文章生成结构化摘要（4-6 句）、中文标题翻译、推荐理由
@@ -75,7 +90,7 @@ RSS 抓取 → 时间过滤 → AI 评分+分类 → AI 摘要+翻译 → 趋势
 
 ## 亮点
 
-- **零依赖** — 纯 TypeScript 单文件，无第三方库，基于 Bun 运行时的原生 `fetch` 和内置 XML 解析
+- **零依赖** — 纯 TypeScript，无第三方库，基于 Bun 运行时的原生 `fetch` 和内置 XML 解析
 - **中英双语** — 所有标题自动翻译为中文，原文标题保留为链接文字，不错过任何语境
 - **结构化摘要** — 不是一句话敷衍了事，而是 4-6 句覆盖核心问题→关键论点→结论的完整概述，30 秒判断一篇文章是否值得读
 - **可视化统计** — Mermaid 图表（GitHub/Obsidian 原生渲染）+ ASCII 柱状图（终端友好）+ 标签云，三种方式覆盖所有阅读场景
@@ -116,7 +131,7 @@ RSS 抓取 → 时间过滤 → AI 评分+分类 → AI 摘要+翻译 → 趋势
 
 ### 改动范围说明
 
-整个项目只有一个脚本文件 `scripts/digest.ts`，AI 调用逻辑集中在两处：
+摘要主流程位于 `scripts/digest.ts`，清单加载与校验位于 `scripts/sources.ts`，AI 调用逻辑集中在两处：
 
 | 位置 | 说明 |
 |------|------|
@@ -139,8 +154,8 @@ RSS 抓取 → 时间过滤 → AI 评分+分类 → AI 摘要+翻译 → 趋势
 
 ## 信息源
 
-90 个 RSS 源精选自 Hacker News 社区最受欢迎的独立技术博客，包括但不限于：
+上游原始 RSS 清单精选自 Hacker News 社区最受欢迎的独立技术博客，包括但不限于：
 
 > Simon Willison · Paul Graham · Dan Abramov · Gwern · Krebs on Security · Antirez · John Gruber · Troy Hunt · Mitchell Hashimoto · Steve Blank · Eli Bendersky · Fabien Sanglard ...
 
-完整列表内嵌于 `scripts/digest.ts`。
+个人维护的完整列表见 [`sources.json`](sources.json)，原始上游列表可在 fork 历史中查看。

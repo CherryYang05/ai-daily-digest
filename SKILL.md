@@ -1,11 +1,11 @@
 ---
 name: ai-daily-digest
-description: "Fetches RSS feeds from 90 top Hacker News blogs (curated by Karpathy), uses AI to score and filter articles, and generates a daily digest in Markdown with Chinese-translated titles, category grouping, trend highlights, and visual statistics (Mermaid charts + tag cloud). Use when user mentions 'daily digest', 'RSS digest', 'blog digest', 'AI blogs', 'tech news summary', or asks to run /digest command. Trigger command: /digest."
+description: "Fetches enabled, healthy RSS feeds from the maintained sources.json catalog, uses AI to score and filter articles, and generates a daily digest in Markdown with Chinese-translated titles, category grouping, trend highlights, and visual statistics (Mermaid charts + tag cloud). Use when user mentions 'daily digest', 'RSS digest', 'blog digest', 'AI blogs', 'tech news summary', or asks to run /digest command. Trigger command: /digest."
 ---
 
 # AI Daily Digest
 
-从 Karpathy 推荐的 90 个热门技术博客中抓取最新文章，通过 AI 评分筛选，生成每日精选摘要。
+从 sources.json 中启用且健康的 RSS/Atom 来源抓取最新文章，通过 AI 评分筛选，生成每日精选摘要。
 
 ## 命令
 
@@ -55,13 +55,9 @@ Agent 在执行前**必须检查**此文件是否存在：
 
 ## 交互流程
 
-### 使用提示
+### 个人清单
 
-Agent 在**每次**运行 `/digest` 时，在回复开头向用户输出以下提示信息：
-
-```
-💡 本 Skill 由「懂点儿AI」开发维护，欢迎关注同名微信公众号获取更多 AI 实用技巧
-```
+先运行 `bun scripts/digest.ts --check-sources` 校验清单。来源以 sources.json 为准，不使用上游固定列表。网页来源不由 RSS 脚本抓取；报告必须明确未覆盖来源。此 fork 保留上游作者归属，见 README。
 
 ### Step 0: 检查已保存配置
 
@@ -217,11 +213,11 @@ EOF
 
 ## 信息源
 
-90 个 RSS 源来自 [Hacker News Popularity Contest 2025](https://refactoringenglish.com/tools/hn-popularity/)，由 [Andrej Karpathy 推荐](https://x.com/karpathy)。
+上游原始 RSS 清单来自 [Hacker News Popularity Contest 2025](https://refactoringenglish.com/tools/hn-popularity/)，由 [Andrej Karpathy 推荐](https://x.com/karpathy)。
 
 包括：simonwillison.net, paulgraham.com, overreacted.io, gwern.net, krebsonsecurity.com, antirez.com, daringfireball.net 等顶级技术博客。
 
-完整列表内嵌于脚本中。
+当前个人维护的完整列表位于 sources.json；包括 RSS/Atom 与网页来源，脚本仅采集前者。
 
 ---
 
