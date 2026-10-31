@@ -1324,5 +1324,118 @@
       "工具",
       "长期思考"
     ]
+  },
+  {
+    "id": "radar_20261101_cal_newport",
+    "name": "Cal Newport · Study Hacks",
+    "htmlUrl": "https://calnewport.com/blog/",
+    "xmlUrl": "https://calnewport.com/feed/",
+    "topics": [
+      "长期思考"
+    ],
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "RSS/Atom",
+    "type": "个人博客"
+  },
+  {
+    "id": "radar_20261101_convivial_society",
+    "name": "L. M. Sacasas · The Convivial Society",
+    "htmlUrl": "https://theconvivialsociety.substack.com/",
+    "xmlUrl": "https://theconvivialsociety.substack.com/feed",
+    "topics": [
+      "长期思考"
+    ],
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "RSS/Atom",
+    "type": "个人博客"
+  },
+  {
+    "id": "radar_20261101_julia_evans",
+    "name": "Julia Evans",
+    "htmlUrl": "https://jvns.ca/",
+    "xmlUrl": "https://jvns.ca/atom.xml",
+    "topics": [
+      "系统",
+      "工程",
+      "工具"
+    ],
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "RSS/Atom",
+    "type": "个人博客"
+  },
+  {
+    "id": "radar_20261101_marc_brooker",
+    "name": "Marc Brooker",
+    "htmlUrl": "https://brooker.co.za/blog/",
+    "xmlUrl": "https://brooker.co.za/blog/rss.xml",
+    "topics": [
+      "系统",
+      "数据库",
+      "Agent"
+    ],
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "RSS/Atom",
+    "type": "个人博客"
+  },
+  {
+    "id": "radar_20261101_marginalian",
+    "name": "Maria Popova · The Marginalian",
+    "htmlUrl": "https://www.themarginalian.org/",
+    "xmlUrl": "https://www.themarginalian.org/feed/",
+    "topics": [
+      "长期思考",
+      "综合"
+    ],
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "RSS/Atom",
+    "type": "个人博客"
+  },
+  {
+    "id": "radar_20261101_martin_kleppmann",
+    "name": "Martin Kleppmann",
+    "htmlUrl": "https://martin.kleppmann.com/",
+    "xmlUrl": "https://feeds.feedburner.com/martinkl?format=xml",
+    "topics": [
+      "数据库",
+      "系统",
+      "安全"
+    ],
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "RSS/Atom",
+    "type": "个人博客"
+  },
+  {
+    "id": "radar_20261101_paul_millerd",
+    "name": "Paul Millerd",
+    "htmlUrl": "https://pmillerd.com/",
+    "xmlUrl": "https://pmillerd.com/rss.xml",
+    "topics": [
+      "长期思考"
+    ],
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "RSS/Atom",
+    "type": "个人博客"
+  },
+  {
+    "id": "radar_20261101_will_larson",
+    "name": "Will Larson · Irrational Exuberance",
+    "htmlUrl": "https://lethain.com/",
+    "xmlUrl": "https://lethain.com/feeds.xml",
+    "topics": [
+      "工程",
+      "Agent",
+      "长期思考"
+    ],
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "RSS/Atom",
+    "type": "个人博客"
   }
 ]
