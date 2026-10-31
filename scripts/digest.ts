@@ -81,7 +81,7 @@ interface AIClient {
 }
 
 // ============================================================================
-// RSS/Atom Parsing (using Bun's built-in HTMLRewriter or manual XML parsing)
+// RSS/Atom Parsing (manual XML parsing)
 // ============================================================================
 
 function stripHtml(html: string): string {
@@ -909,7 +909,7 @@ function printUsage(): never {
   console.log(`技术阅读雷达 · AI Daily Digest - RSS digest from your maintained source catalog
 
 Usage:
-  bun scripts/digest.ts [options]
+  node scripts/digest.ts [options]
 
 Options:
   --hours <n>     Time range in hours (default: 48)
@@ -926,8 +926,8 @@ Environment:
   OPENAI_MODEL     Optional fallback model (default: deepseek-chat for DeepSeek base, else gpt-4o-mini)
 
 Examples:
-  bun scripts/digest.ts --hours 24 --top-n 10 --lang zh
-  bun scripts/digest.ts --hours 72 --top-n 20 --lang en --output ./my-digest.md
+  node scripts/digest.ts --hours 24 --top-n 10 --lang zh
+  node scripts/digest.ts --hours 72 --top-n 20 --lang en --output ./my-digest.md
 `);
   process.exit(0);
 }

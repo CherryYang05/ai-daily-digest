@@ -57,7 +57,7 @@ Agent 在执行前**必须检查**此文件是否存在：
 
 ### 个人清单
 
-先运行 `bun scripts/digest.ts --check-sources` 校验清单。来源以 sources.json 为准，不使用上游固定列表。网页来源不由 RSS 脚本抓取；报告必须明确未覆盖来源。此 fork 保留上游作者归属，见 README。
+先运行 `node scripts/digest.ts --check-sources` 校验清单。来源以 sources.json 为准，不使用上游固定列表。网页来源不由 RSS 脚本抓取；报告必须明确未覆盖来源。本仓库 保留上游作者归属，见 README。
 
 ### Step 0: 检查已保存配置
 
@@ -145,7 +145,7 @@ export OPENAI_API_KEY="<fallback-key>"
 export OPENAI_API_BASE="https://api.deepseek.com/v1"
 export OPENAI_MODEL="deepseek-chat"
 
-npx -y bun ${SKILL_DIR}/scripts/digest.ts \
+node ${SKILL_DIR}/scripts/digest.ts \
   --hours <timeRange> \
   --top-n <topN> \
   --lang <zh|en> \
@@ -204,7 +204,7 @@ EOF
 
 ## 环境要求
 
-- `bun` 运行时（通过 `npx -y bun` 自动安装）
+- Node.js 24 或更高版本，可直接执行 TypeScript
 - 至少一个 AI API Key（`GEMINI_API_KEY` 或 `OPENAI_API_KEY`）
 - 可选：`OPENAI_API_BASE`、`OPENAI_MODEL`（用于 OpenAI 兼容接口）
 - 网络访问（需要能访问 RSS 源和 AI API）

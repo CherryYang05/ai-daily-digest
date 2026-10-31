@@ -18,7 +18,7 @@
 
 ## 快速开始
 
-需要 Bun 运行时。生成报告还需要可访问订阅源与模型接口的网络，以及至少一个可用的模型 API Key。
+需要 Node.js 24 或更高版本，可直接运行本项目的 TypeScript 文件，无需 Bun 或编译步骤。生成报告还需要可访问订阅源与模型接口的网络，以及至少一个可用的模型 API Key。
 
 ### 1. 获取仓库
 
@@ -30,10 +30,12 @@ cd ai-daily-digest
 ### 2. 校验订阅目录
 
 ```bash
-bun scripts/digest.ts --check-sources
+node scripts/digest.ts --check-sources
 ```
 
 此命令只检查目录结构与重复条目，显示 RSS 与网页来源数量；不联网抓取，不调用模型，也不需要 API Key。
+
+也可使用 `npm run check:sources` 校验、`npm test` 运行测试，或用 `npm start -- <参数>` 生成报告。本项目没有第三方运行依赖，无需先执行 `npm install`。
 
 ### 3. 配置模型并生成报告
 
@@ -45,7 +47,7 @@ bun scripts/digest.ts --check-sources
 $env:OPENAI_API_KEY = "<API_KEY>"
 $env:OPENAI_API_BASE = "<兼容接口的基础地址，以 /v1 结尾>"
 $env:OPENAI_MODEL = "<服务商支持的模型名称>"
-bun scripts/digest.ts --hours 168 --top-n 5 --lang zh --output ./output/digest.md
+node scripts/digest.ts --hours 168 --top-n 5 --lang zh --output ./output/digest.md
 ```
 
 **Bash / Zsh：**
@@ -54,7 +56,7 @@ bun scripts/digest.ts --hours 168 --top-n 5 --lang zh --output ./output/digest.m
 export OPENAI_API_KEY="<API_KEY>"
 export OPENAI_API_BASE="<兼容接口的基础地址，以 /v1 结尾>"
 export OPENAI_MODEL="<服务商支持的模型名称>"
-bun scripts/digest.ts --hours 168 --top-n 5 --lang zh --output ./output/digest.md
+node scripts/digest.ts --hours 168 --top-n 5 --lang zh --output ./output/digest.md
 ```
 
 将占位符替换为自己的配置。也可以只设置 `GEMINI_API_KEY` 使用脚本中的 Gemini 接口；模型是否可用取决于服务商和账号权限。
@@ -133,7 +135,7 @@ bun scripts/digest.ts --hours 168 --top-n 5 --lang zh --output ./output/digest.m
 
 本仓库提供来源目录与报告生成脚本；**不内置 Notion 写入、定时调度或跨期文章去重机制**。
 
-外部任务可以读取本 fork 的 [sources.json](https://github.com/CherryYang05/ai-daily-digest/blob/main/sources.json)，按稳定来源 ID 与 Notion 对齐，再负责文章去重、阅读状态保留和报告归档。网页来源需要外部任务另行读取或实现采集适配。
+外部任务可以读取本仓库 的 [sources.json](https://github.com/CherryYang05/ai-daily-digest/blob/main/sources.json)，按稳定来源 ID 与 Notion 对齐，再负责文章去重、阅读状态保留和报告归档。网页来源需要外部任务另行读取或实现采集适配。
 
 “每期新增最多 20 篇、精选最多 5 篇”属于个人阅读任务的规则；仓库脚本只通过 `--top-n` 控制报告精选数量。更新仓库不会自动修改 ChatGPT 中已有任务的配置。
 
@@ -153,7 +155,7 @@ SKILL.md                  Agent 使用说明
 本地检查：
 
 ```bash
-bun scripts/digest.ts --check-sources
+node scripts/digest.ts --check-sources
 node --test scripts/sources.test.mjs
 ```
 
@@ -161,4 +163,4 @@ node --test scripts/sources.test.mjs
 
 ## 项目来源
 
-本项目 fork 自 [vigorX777/ai-daily-digest](https://github.com/vigorX777/ai-daily-digest)，保留上游提交历史与代码来源。早期博客目录参考 [Hacker News Popularity Contest 2025](https://refactoringenglish.com/tools/hn-popularity/)；当前清单已独立扩充、清理和维护。
+本项目的初始代码来自 [vigorX777/ai-daily-digest](https://github.com/vigorX777/ai-daily-digest)，现作为独立仓库维护，保留原始提交历史与代码来源。早期博客目录参考 [Hacker News Popularity Contest 2025](https://refactoringenglish.com/tools/hn-popularity/)；当前清单已独立扩充、清理和维护。
