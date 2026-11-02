@@ -10,7 +10,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "06c2b1871974",
@@ -23,7 +24,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "0729c0f8976b",
@@ -36,7 +38,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "0ca49d2c8944",
@@ -49,7 +52,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "0f2412631b87",
@@ -62,7 +66,8 @@
     "type": "官方技术博客",
     "topics": [
       "AI infra"
-    ]
+    ],
+    "priority": "P1 核心"
   },
   {
     "id": "12d5f3e15708",
@@ -75,7 +80,8 @@
     "type": "官方技术博客",
     "topics": [
       "AI/ML"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "14853a1f2b4e",
@@ -88,7 +94,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "1c00d45aba0c",
@@ -101,7 +108,8 @@
     "type": "官方技术博客",
     "topics": [
       "工程"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "2542633588cb",
@@ -114,7 +122,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "268115f68860",
@@ -127,7 +136,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "28499c16e85b",
@@ -140,7 +150,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "28e8c6796f14",
@@ -153,7 +164,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "2bea89ee045f",
@@ -166,7 +178,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "2c0c504d928e",
@@ -179,7 +192,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "2e7a4ff40110",
@@ -192,7 +206,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "32291f592292",
@@ -205,7 +220,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "3529075f3aa3",
@@ -218,7 +234,8 @@
     "type": "官方技术博客",
     "topics": [
       "工程"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "365c787f2e2a",
@@ -231,7 +248,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "3a5d5c2eb478",
@@ -244,7 +262,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "3ea770f6a56c",
@@ -257,7 +276,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "414be8c33988",
@@ -270,7 +290,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "45181d51e729",
@@ -283,7 +304,8 @@
     "type": "个人博客",
     "topics": [
       "工程"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "4b39148d5854",
@@ -296,7 +318,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "4e5e0af30e82",
@@ -309,7 +332,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "4e61b9774a4e",
@@ -322,7 +346,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "4f6ef809674e",
@@ -335,7 +360,8 @@
     "type": "官方技术博客",
     "topics": [
       "AI infra"
-    ]
+    ],
+    "priority": "P1 核心"
   },
   {
     "id": "540176f90740",
@@ -348,7 +374,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "55ac26b063c6",
@@ -361,7 +388,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "5628346d3d7a",
@@ -374,7 +402,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "587718e3a5ab",
@@ -387,7 +416,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "58f6b2ab3cdd",
@@ -400,7 +430,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "5ab4271c6485",
@@ -413,7 +444,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "60e1d4b58355",
@@ -426,7 +458,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "64d5ea15be32",
@@ -439,7 +472,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "64e1aa6e42f7",
@@ -452,7 +486,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "67749bf2ade6",
@@ -465,7 +500,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "68935079f072",
@@ -478,7 +514,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "6e1fe368df52",
@@ -491,7 +528,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "6ea5c9986859",
@@ -504,7 +542,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "75834718098d",
@@ -517,7 +556,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "77ee68ab1118",
@@ -530,7 +570,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "7a73bb2d070e",
@@ -543,7 +584,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "7aa3330c1b9c",
@@ -556,7 +598,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "815b5a0a7fe5",
@@ -569,7 +612,8 @@
     "type": "官方技术博客",
     "topics": [
       "AI infra"
-    ]
+    ],
+    "priority": "P1 核心"
   },
   {
     "id": "8bbc12aa516f",
@@ -582,7 +626,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "8d38fb65fe8f",
@@ -595,7 +640,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "935fbe5ba89f",
@@ -608,7 +654,8 @@
     "type": "官方技术博客",
     "topics": [
       "AI/ML"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "954cce150bba",
@@ -621,7 +668,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "a6a94752b15c",
@@ -634,7 +682,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "ad8a047b11f0",
@@ -647,7 +696,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "ad9458e9d6df",
@@ -660,7 +710,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "b10234548f75",
@@ -673,7 +724,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "b1bcd841e80a",
@@ -686,7 +738,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "b2a4a2537c30",
@@ -699,7 +752,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "b398efd1a404",
@@ -712,7 +766,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "b3eec02ad0c7",
@@ -725,7 +780,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "b578172ab33e",
@@ -738,7 +794,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "be961b578c94",
@@ -751,7 +808,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "bf7e8cca3d87",
@@ -764,7 +822,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "c068d1308225",
@@ -777,7 +836,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "c2a0cbaf4884",
@@ -790,7 +850,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "c74eb4f2628d",
@@ -803,7 +864,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "ca49a50a781b",
@@ -816,7 +878,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "cc10c2d73d71",
@@ -829,7 +892,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "d2c13d05488b",
@@ -842,7 +906,8 @@
     "type": "官方技术博客",
     "topics": [
       "工程"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "d31c90f05678",
@@ -855,7 +920,8 @@
     "type": "官方技术博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "d48834f2a2a6",
@@ -868,7 +934,8 @@
     "type": "官方技术博客",
     "topics": [
       "数据库"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "d64f88c49960",
@@ -881,7 +948,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "da2adb0d8250",
@@ -894,7 +962,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "db0eb72e8904",
@@ -907,7 +976,8 @@
     "type": "官方技术博客",
     "topics": [
       "数据库"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "dbdbb37cd61b",
@@ -920,7 +990,8 @@
     "type": "官方技术博客",
     "topics": [
       "数据库"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "dd12a83059ef",
@@ -933,7 +1004,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "df9a8804e586",
@@ -946,7 +1018,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "e1a6544cac05",
@@ -959,7 +1032,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "e2a46d48ef56",
@@ -972,7 +1046,8 @@
     "type": "官方技术博客",
     "topics": [
       "数据库"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "e5391311662c",
@@ -985,7 +1060,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "e742da393ba4",
@@ -998,7 +1074,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "e762d200ad19",
@@ -1011,7 +1088,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "e8d7c9a828c1",
@@ -1024,7 +1102,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "e9d55e3c59f5",
@@ -1037,7 +1116,8 @@
     "type": "官方技术博客",
     "topics": [
       "工程"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "eb40c6e5ef67",
@@ -1050,7 +1130,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "ec82226eede5",
@@ -1063,7 +1144,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "eea5ac28ad3c",
@@ -1076,7 +1158,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "f402105cbdec",
@@ -1089,7 +1172,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "f475ac86bbea",
@@ -1102,7 +1186,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "f550826eaf11",
@@ -1115,7 +1200,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "f6b03c05b2f3",
@@ -1128,7 +1214,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "f8b2083ba6bc",
@@ -1141,7 +1228,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "fecf8003264f",
@@ -1154,7 +1242,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "ffc9759b6f07",
@@ -1167,7 +1256,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "ffe8490c157f",
@@ -1180,7 +1270,8 @@
     "type": "个人博客",
     "topics": [
       "综合"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "radar26_01",
@@ -1195,7 +1286,8 @@
       "系统",
       "AI infra",
       "工程"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "radar26_02",
@@ -1209,7 +1301,8 @@
     "topics": [
       "系统",
       "工程"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "radar26_03",
@@ -1224,7 +1317,8 @@
       "工具",
       "工程",
       "AI infra"
-    ]
+    ],
+    "priority": "P4 低频"
   },
   {
     "id": "radar26_04",
@@ -1238,7 +1332,8 @@
     "topics": [
       "工具",
       "Agent"
-    ]
+    ],
+    "priority": "P4 低频"
   },
   {
     "id": "radar26_11",
@@ -1252,7 +1347,8 @@
     "topics": [
       "AI infra",
       "系统"
-    ]
+    ],
+    "priority": "P1 核心"
   },
   {
     "id": "radar26_12",
@@ -1266,7 +1362,8 @@
     "topics": [
       "AI/ML",
       "Agent"
-    ]
+    ],
+    "priority": "P3 常规"
   },
   {
     "id": "radar26_13",
@@ -1281,7 +1378,8 @@
       "AI infra",
       "Agent",
       "长期思考"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "radar26_14",
@@ -1295,7 +1393,8 @@
     "topics": [
       "AI infra",
       "长期思考"
-    ]
+    ],
+    "priority": "P2 重点"
   },
   {
     "id": "radar26_15",
@@ -1309,7 +1408,8 @@
     "topics": [
       "AI infra",
       "工具"
-    ]
+    ],
+    "priority": "P4 低频"
   },
   {
     "id": "radar26_16",
@@ -1323,7 +1423,8 @@
     "topics": [
       "工具",
       "长期思考"
-    ]
+    ],
+    "priority": "P4 低频"
   },
   {
     "id": "radar_20261101_cal_newport",
@@ -1336,7 +1437,8 @@
     "enabled": true,
     "health": "可读取",
     "fetchMethod": "RSS/Atom",
-    "type": "个人博客"
+    "type": "个人博客",
+    "priority": "P2 重点"
   },
   {
     "id": "radar_20261101_convivial_society",
@@ -1349,7 +1451,8 @@
     "enabled": true,
     "health": "可读取",
     "fetchMethod": "RSS/Atom",
-    "type": "个人博客"
+    "type": "个人博客",
+    "priority": "P2 重点"
   },
   {
     "id": "radar_20261101_julia_evans",
@@ -1364,7 +1467,8 @@
     "enabled": true,
     "health": "可读取",
     "fetchMethod": "RSS/Atom",
-    "type": "个人博客"
+    "type": "个人博客",
+    "priority": "P2 重点"
   },
   {
     "id": "radar_20261101_marc_brooker",
@@ -1379,7 +1483,8 @@
     "enabled": true,
     "health": "可读取",
     "fetchMethod": "RSS/Atom",
-    "type": "个人博客"
+    "type": "个人博客",
+    "priority": "P1 核心"
   },
   {
     "id": "radar_20261101_marginalian",
@@ -1393,7 +1498,8 @@
     "enabled": true,
     "health": "可读取",
     "fetchMethod": "RSS/Atom",
-    "type": "个人博客"
+    "type": "个人博客",
+    "priority": "P3 常规"
   },
   {
     "id": "radar_20261101_martin_kleppmann",
@@ -1408,7 +1514,8 @@
     "enabled": true,
     "health": "可读取",
     "fetchMethod": "RSS/Atom",
-    "type": "个人博客"
+    "type": "个人博客",
+    "priority": "P1 核心"
   },
   {
     "id": "radar_20261101_paul_millerd",
@@ -1421,7 +1528,8 @@
     "enabled": true,
     "health": "可读取",
     "fetchMethod": "RSS/Atom",
-    "type": "个人博客"
+    "type": "个人博客",
+    "priority": "P3 常规"
   },
   {
     "id": "radar_20261101_will_larson",
@@ -1436,6 +1544,24 @@
     "enabled": true,
     "health": "可读取",
     "fetchMethod": "RSS/Atom",
-    "type": "个人博客"
+    "type": "个人博客",
+    "priority": "P2 重点"
+  },
+  {
+    "id": "radar_20261102_deepseek_official_news",
+    "name": "DeepSeek · 官方研究与动态",
+    "htmlUrl": "https://www.deepseek.com/news/",
+    "xmlUrl": null,
+    "enabled": true,
+    "health": "可读取",
+    "fetchMethod": "网页",
+    "type": "官方技术博客",
+    "topics": [
+      "AI/ML",
+      "AI infra",
+      "Agent",
+      "系统"
+    ],
+    "priority": "P1 核心"
   }
 ]
